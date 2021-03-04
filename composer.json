@@ -1,0 +1,23 @@
+{
+    "name": "sjaakp/yii2-linkchecker",
+    "description": "Link Checker Extension for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","urls","links"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sjaak Priester",
+            "email": "sjaak@sjaakpriester.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "yiisoft/yii2": "~2.0.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "sjaakp\\linkchecker\\": ""
+        }
+    }
+}
