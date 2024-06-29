@@ -90,9 +90,9 @@ class Module extends YiiModule implements BootstrapInterface
     {
         parent::init();
 
-        if (version_compare(curl_version()['version'], '7.16.2') < 0)  {
+    /*    if (version_compare(curl_version()['version'], '7.16.2') < 0)  {
             throw new InvalidConfigException('Linkchecker: curl version is older than 7.16.2.');
-        }
+        }*/
 
         Link::$_tableName = $this->tableName;
 
